@@ -1,8 +1,8 @@
 class NotificationMailer < ApplicationMailer
-	default from: "no-reply@nomsterapp.com"
+  default from: "no-reply@nomsterapp.com"
 
-	def comment_added
-		mail(to: "drewhartberg@gmail.com",
-			subject: "A Comment Has Been Added To Your Place")
-	end
+  def comment_added
+    mail(to: "drewhartberg.com",
+         subject: "A comment has been added to your place")
+  end
 end
